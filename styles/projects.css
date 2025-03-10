@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../assets/background-image_1.jpg);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 300px;
+    gap: 40px;
+}
+
+.title span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 290px;
+    height: 50px;
+    border-radius: 4px;
+    font-size: 52px;
+    font-weight: 700;
+    color: transparent;
+    -webkit-text-stroke: 1px aliceblue;
+    background-clip: text;
+    background-color: transparent;
+}
+
+
+.projects {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.projects .span-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 290px;
+    height: 50px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+    background-color: aliceblue;
+    border: 2px solid aliceblue;
+}
+
+.projects-web, .projects-software {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.projects a, .span-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 290px;
+    height: 50px;
+    border-radius: 4px;
+    font-size: 17px;
+    font-weight: 700;
+    color: aliceblue;
+    background-color: transparent;
+    border: 2px solid aliceblue;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.projects a:hover {
+    background-color: aliceblue;
+    color: #1a1a1a;
+    border-color: aliceblue;
+    transform: scale(1.05);
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.buttons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 290px;
+    height: 50px;
+    border-radius: 4px;
+    font-size: 17px;
+    font-weight: 700;
+    color: aliceblue;
+    background-color: transparent;
+    border: 2px solid aliceblue;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.buttons a:hover {
+    background-color: aliceblue;
+    color: #1a1a1a;
+    border-color: aliceblue;
+    transform: scale(1.05);
+}
+
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.social-media a {
+    display: inline-block;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.social-media .fa-brands {
+    font-size: 38px;
+    color: aliceblue;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-media a:hover {
+    transform: scale(1.2);
+}
+
+.social-media a:hover .fa-brands {
+    color: #1a1a1a;
+}
+
+
+.made-by {
+    font-size: 18px;
+    font-weight: 500;
+}
+
