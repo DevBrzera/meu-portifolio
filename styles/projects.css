@@ -40,11 +40,8 @@ body {
 
 @media (max-width: 768px) {
     .title span {
-        font-size: 32px;
-        width: 100%;
-        height: auto;
+        color: aliceblue;
         text-align: center;
-        -webkit-text-stroke: 0.5px aliceblue;
     }
 }
 
