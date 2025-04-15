@@ -3,13 +3,13 @@
 html, body {
     font-family: 'Roboto', sans-serif;
     color: aliceblue;
+    height: 100%;
 }
 
 body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     background-image: url('../assets/background-image_1.jpg');
 }
 

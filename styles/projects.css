@@ -3,13 +3,13 @@
 html, body {
     font-family: 'Roboto', sans-serif;
     color: aliceblue;
+    height: 100%;
 }
 
 body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     background-image: url('../assets/background-image_1.jpg');
 }
 
@@ -36,6 +36,16 @@ body {
     -webkit-text-stroke: 1px aliceblue;
     background-clip: text;
     background-color: transparent;
+}
+
+@media (max-width: 768px) {
+    .title span {
+        font-size: 32px;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        -webkit-text-stroke: 0.5px aliceblue;
+    }
 }
 
 
